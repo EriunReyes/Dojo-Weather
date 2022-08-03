@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="dojow.css">
+</head>
+<body>
+    <div id="whole-container">
+<!-- navigation bar -->
+    <div id="navbar">
+        <h1 class="dojoweather">DojoWeather</h1>
+        <a class="nav-options" onclick="weather()">Burbank</a>
+        <a class="nav-options" onclick="weather()">Chicago</a>
+        <a class="nav-options" href="/dojow.html">Sanjose</a>
+    </div>
+<!-- San Jose temperatures -->
+    <div id="block">
+        <h1 class="sanjose">Dallas</h1>
+        <label class="celsius">show temperature in</label>
+        <select id="box" onchange="celcTofarhen()">
+            <option value="c">°C</option>
+            <option value="f" >°F</option>
+        </select>
+    </div>
+    <hr>
+    <!-- weathers on different days -->
+    <div id="weatherblock">
+        <div class="dif-weathers">
+            <p class="day">Today</p>
+            <img class="img" src="img sun.png" alt="sunny today">
+            <p class="info">Sunny</p>
+            <div class="division">
+                <p><span class="temp1">50</span>°</p> 
+                <p><span class="temp2">22</span>°</p> 
+            </div>
+        </div> 
+        <div class="dif-weathers">
+            <p class="day">Tomorrow</p>
+            <img class="img" src="img raining.png" alt="raining today">
+            <p class="info">expected rain</p>
+            <div class="division">
+            <p><span class="temp1">30</span>°</p> 
+            <p><span class="temp2">11</span>°</p> 
+        </div>
+        </div>
+
+        <div class="dif-weathers">
+            <p class="day">Friday</p>
+            <img class="img" src="img raining.png" alt="raining today">
+            <p class="info">expected rain</p>
+            <div class="division">
+            <p><span class="temp1">50</span>°</p> 
+            <p><span class="temp2">35</span>°</p> 
+        </div>
+        </div>
+
+        <div class="dif-weathers">
+            <p class="day">Saturday</p>
+            <img class="img" src="img cloudy.png" alt="cloudy today">
+            <p class="info">Cloudy</p>
+            <div class="division">
+            <p><span class="temp1">50</span>°</p> 
+            <p><span class="temp2">30</span>°</p> 
+        </div>
+        </div>
+    </div>
+    </div>
+<!-- accept cookies -->
+    <div id="cookieblock" onclick="cookies()">
+        <img class="cookieimg" src="cookietime.png" alt="stop eating cookies from web browsers">
+        <div id="text-section">
+        <h1 class="cookietime">Stop! Cookie Time</h1>
+        <p class="paragraph"> We use cookies (sadly not the edibles ones) to personalize content and ads, to provide social media features and to analyse our traffic.<a href="/cookies.html">Read More...</a></p>
+        </div>
+        <button class="btn">I Accept</button>
+    </div>
+
+
+    <script src="dojow.js"></script>
+</body>
+</html>

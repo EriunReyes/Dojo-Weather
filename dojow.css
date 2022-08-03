@@ -1,0 +1,130 @@
+
+
+#navbar {
+    align-items: center;
+    background-color: lightskyblue;
+    display: flex; 
+    justify-content: space-evenly;
+
+}
+
+.dojoweather {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.nav-options {
+    color: white;
+    font-size: 35px;
+}
+
+.sanjose {
+    font-size: 40px;
+
+}
+
+#block {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.celsius {
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    left: 280px;
+}
+
+#box {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+hr {
+    margin: 0px 250px;
+}
+
+
+/* weather blocks */
+
+#weatherblock {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.dif-weathers{
+    background-color: gray;
+    border: solid;
+    display: inline-block;
+    text-align: center;
+    width: 250px;
+}
+
+
+.img  {
+    border-radius: 50%;
+    border: solid beige;
+    width: 200px;
+}
+
+.day {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.info {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.temp1, .temp3, .temp5, .temp7  {
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.temp2, .temp4, .temp6, .temp8{
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.division {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#cookieblock {
+    background-color: gray;
+    border: solid;
+    padding: 10px;
+    margin: 20px 171px;
+    display: flex;
+}
+
+.cookieimg {
+    border: solid;
+    border-radius: 50%;
+    margin: -5px 5px;
+    width: 100px;
+}
+
+.paragraph {
+    font-size: 20px;
+}
+
+.btn {
+    background-color: blueviolet;
+    border: solid;
+    box-shadow: 3px 3px 3px;
+    font-weight: bold;
+    font-size: large;
+    margin: 40px 40px;
+}
+
+/* I did not use position: "fixed" because I already found the way to adjust my block as in the outcome */
